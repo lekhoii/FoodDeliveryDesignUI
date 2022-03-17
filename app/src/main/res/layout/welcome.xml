@@ -48,6 +48,7 @@
                 >
             </ImageView>
             <Button
+                android:id="@+id/customfbbtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="facebook"
@@ -70,6 +71,7 @@
                 >
             </ImageView>
             <Button
+                android:id="@+id/customgooglebtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Google"
@@ -92,6 +94,7 @@
                 >
             </ImageView>
             <Button
+                android:id="@+id/customanotherbtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Another sign in"
@@ -103,15 +106,16 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/skipbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="skip"
-        android:textSize="20dp"
-        android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
         android:layout_marginTop="20dp"
         android:layout_marginRight="20dp"
-        android:background="@drawable/skip"/>
+        android:background="@drawable/skip"
+        android:text="skip"
+        android:textSize="20dp" />
 
     <TextView
         android:layout_width="wrap_content"
