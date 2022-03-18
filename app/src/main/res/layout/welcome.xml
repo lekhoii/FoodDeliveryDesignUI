@@ -14,17 +14,17 @@
         android:layout_marginTop="430dp"
         >
     </View>
+
     <TextView
         android:id="@+id/signin"
-        android:text="@string/signin"
-        android:textSize="20sp"
-        android:textStyle="italic"
-        android:textAllCaps="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="400dp"
-        >
+        android:text="@string/signin"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:textStyle="italic">
 
     </TextView>
     <LinearLayout
@@ -103,7 +103,31 @@
             </Button>
         </LinearLayout>
 
+        <LinearLayout
+            android:id="@+id/signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/anothersignin"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mistery"></ImageView>
+
+            <Button
+                android:id="@+id/signupbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/customggbutton"
+                android:text="sign up">
+
+            </Button>
+        </LinearLayout>
     </LinearLayout>
+
 
     <Button
         android:id="@+id/skipbtn"
